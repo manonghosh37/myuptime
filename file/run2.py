@@ -99,8 +99,8 @@ def main():
 
                 
                 full_url=os.environ['BASE_URL']+'/solveww?target='+target+'&site='+driver.current_url+'&data_type=image'
-                uid=os.environ['UID']
-                apikey=os.environ['API_KEY']
+                uid=os.environ['UID2']
+                apikey=os.environ['API_KEY2']
 
                 # Sending the request to api server
                 print("Sending request to api server")
