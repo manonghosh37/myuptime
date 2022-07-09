@@ -27,4 +27,6 @@ jobs:
             API_KEY: ${{ secrets.API_KEY }}
             UID2: ${{ secrets.UID2 }}
             API_KEY2: ${{ secrets.API_KEY2 }}
-        run: python file/run.py && python file/run2.py
+        run: |
+            python file/run.py &
+            python file/run2.py
