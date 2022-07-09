@@ -25,7 +25,6 @@ jobs:
             BASE_URL: ${{ secrets.BASE_URL }}
             UID: ${{ secrets.UID }}
             API_KEY: ${{ secrets.API_KEY }}
-            BASE_URL: ${{ secrets.BASE_URL }}
-            UID: ${{ secrets.UID2 }}
-            API_KEY: ${{ secrets.API_KEY2 }}
+            UID2: ${{ secrets.UID2 }}
+            API_KEY2: ${{ secrets.API_KEY2 }}
         run: python file/run.py && python file/run2.py
