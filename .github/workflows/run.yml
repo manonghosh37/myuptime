@@ -2,7 +2,7 @@ name: task
 on:
   workflow_dispatch:
 jobs:
-  scrape:
+  dotask:
     runs-on: ubuntu-latest
     steps:
       - name: Check out this repo
